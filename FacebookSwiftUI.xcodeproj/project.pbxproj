@@ -13,6 +13,11 @@
 		9FFE42D522E88A6300F27DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE42D422E88A6300F27DF0 /* Assets.xcassets */; };
 		9FFE42D822E88A6300F27DF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE42D722E88A6300F27DF0 /* Preview Assets.xcassets */; };
 		9FFE42DB22E88A6300F27DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE42D922E88A6300F27DF0 /* LaunchScreen.storyboard */; };
+		9FFE42E322E8A1EB00F27DF0 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE42E222E8A1EB00F27DF0 /* GroupView.swift */; };
+		9FFE42E522E8A20B00F27DF0 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE42E422E8A20B00F27DF0 /* PostView.swift */; };
+		9FFE42E722E8A23100F27DF0 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE42E622E8A23100F27DF0 /* GroupDetailView.swift */; };
+		9FFE42E922E8A25A00F27DF0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE42E822E8A25A00F27DF0 /* Post.swift */; };
+		9FFE42EC22E8A2A000F27DF0 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE42EB22E8A2A000F27DF0 /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9FFE42D722E88A6300F27DF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FFE42DA22E88A6300F27DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFE42DC22E88A6300F27DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFE42E222E8A1EB00F27DF0 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		9FFE42E422E8A20B00F27DF0 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		9FFE42E622E8A23100F27DF0 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		9FFE42E822E8A25A00F27DF0 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9FFE42EB22E8A2A000F27DF0 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,9 @@
 				9FFE42CE22E88A6200F27DF0 /* AppDelegate.swift */,
 				9FFE42D022E88A6200F27DF0 /* SceneDelegate.swift */,
 				9FFE42D222E88A6200F27DF0 /* ContentView.swift */,
+				9FFE42E622E8A23100F27DF0 /* GroupDetailView.swift */,
+				9FFE42ED22E8A6B600F27DF0 /* Views */,
+				9FFE42EA22E8A26000F27DF0 /* Models */,
 				9FFE42D422E88A6300F27DF0 /* Assets.xcassets */,
 				9FFE42D922E88A6300F27DF0 /* LaunchScreen.storyboard */,
 				9FFE42DC22E88A6300F27DF0 /* Info.plist */,
@@ -73,6 +86,24 @@
 				9FFE42D722E88A6300F27DF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FFE42EA22E8A26000F27DF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FFE42E822E8A25A00F27DF0 /* Post.swift */,
+				9FFE42EB22E8A2A000F27DF0 /* Group.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FFE42ED22E8A6B600F27DF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FFE42E422E8A20B00F27DF0 /* PostView.swift */,
+				9FFE42E222E8A1EB00F27DF0 /* GroupView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +179,12 @@
 			files = (
 				9FFE42CF22E88A6200F27DF0 /* AppDelegate.swift in Sources */,
 				9FFE42D122E88A6200F27DF0 /* SceneDelegate.swift in Sources */,
+				9FFE42E322E8A1EB00F27DF0 /* GroupView.swift in Sources */,
+				9FFE42EC22E8A2A000F27DF0 /* Group.swift in Sources */,
+				9FFE42E522E8A20B00F27DF0 /* PostView.swift in Sources */,
 				9FFE42D322E88A6200F27DF0 /* ContentView.swift in Sources */,
+				9FFE42E922E8A25A00F27DF0 /* Post.swift in Sources */,
+				9FFE42E722E8A23100F27DF0 /* GroupDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
